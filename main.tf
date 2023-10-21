@@ -18,8 +18,7 @@ tags = {
 
 resource "aws_key_pair" "capstone_key" {
   key_name   = "capstone-project-keypair"
-  public_key = <<EOF 
-MIIEogIBAAKCAQEAiEMaVhIfD4+l6nvlLy1fV1vbZmJirf6rh2E7zSEteIHeFKIP
+  public_key =  "MIIEogIBAAKCAQEAiEMaVhIfD4+l6nvlLy1fV1vbZmJirf6rh2E7zSEteIHeFKIP
 dln2E7P7eGltwMyZf0MWr5KltamiIBE2pJ3buTFUgz/X6wmqmRc/a0w38wbqqxJx
 czDKFcBD89JJYSyjA9XJYBfLDHsHXaw1F9JKyMBU9xmzI0LVGymBHRoIFk9fg/Ol
 GWF+82tuzggvn2B9QGB/2IeUbp8UevjOn6sg4v2wIU9E/SxhUYlD+2zSXM3HARU6
@@ -43,7 +42,6 @@ SqkIlCqa7MSnqsZkmdEedodihQ1lnkbRbfvhPloHrlVHFwuc9m59GW+4ab6ftLb5
 fAMjGB86vA9xwBf9f9lFUpMTmyVBZA22kRN6Yr9sdtnRMn6RPQsCkh3dFMLFr4YZ
 qICTAoGAGn71YN7E4tpWZ1CF3L0vymrWJK8+VDTTmbJUWrbsh026QMKRt1GLHVop
 Vn2jeQ3KFqB9ngiJ22brtkE/8SEPkvvTN96VtGNZJMDeeJ7F13RNAIjC85jWT4bT
-3nEGMV33cWk1O4dn1JrmtkFr2+ZaDvD7U6G4Jg/rTIJk0b6SZrc=
-EOF
+3nEGMV33cWk1O4dn1JrmtkFr2+ZaDvD7U6G4Jg/rTIJk0b6SZrc="
 }
 
