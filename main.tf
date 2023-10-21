@@ -16,6 +16,11 @@ tags = {
  }
 }
 
+depends_on = [
+ aws_key_pair.capstone_key
+]
+
+
 resource "aws_key_pair" "capstone_key" {
   key_name   = "capstone-project-keypair"
   public_key =  "MIIEogIBAAKCAQEAiEMaVhIfD4+l6nvlLy1fV1vbZmJirf6rh2E7zSEteIHeFKIP
