@@ -34,3 +34,9 @@ variable "name_tag" {
    description = "Name of the EC2 instance"
    default     = "Sonarqube-server"
 }
+
+variable "name_tag_1" {
+   type        = string
+   description = "Name of the EC2 instance"
+   default     = "Docker-server"
+}
