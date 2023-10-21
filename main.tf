@@ -19,7 +19,6 @@ tags = {
 resource "aws_key_pair" "capstone_key" {
   key_name   = "capstone-project-keypair"
   public_key = <<EOF 
------BEGIN RSA PRIVATE KEY-----
 MIIEogIBAAKCAQEAiEMaVhIfD4+l6nvlLy1fV1vbZmJirf6rh2E7zSEteIHeFKIP
 dln2E7P7eGltwMyZf0MWr5KltamiIBE2pJ3buTFUgz/X6wmqmRc/a0w38wbqqxJx
 czDKFcBD89JJYSyjA9XJYBfLDHsHXaw1F9JKyMBU9xmzI0LVGymBHRoIFk9fg/Ol
@@ -45,7 +44,6 @@ fAMjGB86vA9xwBf9f9lFUpMTmyVBZA22kRN6Yr9sdtnRMn6RPQsCkh3dFMLFr4YZ
 qICTAoGAGn71YN7E4tpWZ1CF3L0vymrWJK8+VDTTmbJUWrbsh026QMKRt1GLHVop
 Vn2jeQ3KFqB9ngiJ22brtkE/8SEPkvvTN96VtGNZJMDeeJ7F13RNAIjC85jWT4bT
 3nEGMV33cWk1O4dn1JrmtkFr2+ZaDvD7U6G4Jg/rTIJk0b6SZrc=
------END RSA PRIVATE KEY-----
 EOF
 }
 
